@@ -1,7 +1,6 @@
-# 静态扫雷计算器
+# 静态扫雷计算器 (Minesweeper Static Solver)
 
 > 基于穷举算法的静态扫雷逻辑推理工具
-> AIGC:本项目由ai辅助生成
 ## 📖 简介
 
 **纸上扫雷逻辑求解器**是一个专门用于解决**静态扫雷谜题**的 Python 工具。与传统的交互式扫雷游戏不同，本工具接收一个静态的扫雷盘面（包含已知数字和未翻开方格），通过**穷举搜索**和**约束求解**，计算出每个未翻开方格的确切状态。
@@ -38,3 +37,6 @@ mat = 转换为矩阵(txt)    #如果数据不是程序可识别的矩阵则先�
 ```bash
 git clone https://github.com/yourname/paper-minesweeper-solver.git
 ```
+
+### AIGC 声明
+> 本项目代码由 AI 辅助生成  This project code is AI-assisted generated.
