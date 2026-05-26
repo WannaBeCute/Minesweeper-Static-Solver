@@ -38,5 +38,9 @@ mat = 转换为矩阵(txt)    #如果数据不是程序可识别的矩阵则先�
 git clone https://github.com/yourname/paper-minesweeper-solver.git
 ```
 
-### AIGC 声明
+## AIGC 声明
 > 本项目代码由 AI 辅助生成  This project code is AI-assisted generated.
+### 关于 AI 生成
+
+本项目的核心代码由 AI 辅助生成，提示词已附在 `提示词.txt` 中。
+本项目采用 MIT 协议开源，代码可完全自由使用。作者仅仅只是知识分享~
