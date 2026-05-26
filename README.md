@@ -33,7 +33,7 @@ mat = 转换为矩阵(txt)    #如果数据不是程序可识别的矩阵则先�
 ### 安装
 
 ```bash
-git clone https://github.com/WannaBeCute/paper-minesweeper-solver.git
+git clone https://github.com/WannaBeCute/Minesweeper-Static-Solver.git
 ```
 
 ## AIGC 声明
