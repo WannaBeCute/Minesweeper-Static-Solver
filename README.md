@@ -1,2 +1,26 @@
-# -
-静态扫雷计算器 | 基于穷举算法的静态扫雷推理工具。支持纸上扫雷谜题求解，确定性输出雷/安全格/不确定格。Paper minesweeper puzzle solver using exhaustive search algorithm.
+# 纸上扫雷 · 逻辑求解器
+
+> 基于穷举算法的静态扫雷逻辑推理工具 | A deterministic minesweeper solver using exhaustive search
+
+## 📖 简介
+
+**纸上扫雷逻辑求解器**是一个专门用于解决**静态扫雷谜题**的 Python 工具。与传统的交互式扫雷游戏不同，本工具接收一个静态的扫雷盘面（包含已知数字和未翻开方格），通过**穷举搜索**和**约束求解**，计算出每个未翻开方格的确切状态。
+
+### 核心特点
+
+- 🧠 **逻辑推理**：基于约束满足问题（CSP）建模，通过穷举所有可能性找出确定性结论
+- 🎯 **确定性输出**：明确标记确定有雷（●）、确定安全（数字）、不确定（!）的位置
+- 📊 **多解整合**：当存在多种可能解时，统计每个方格的概率分布
+- 🎨 **可视化显示**：带颜色的终端输出，直观清晰
+- ⚡ **智能剪枝**：DFS + 全局一致性校验，高效搜索
+
+## 🚀 快速开始
+
+### 安装
+
+```bash
+# 克隆仓库
+git clone https://github.com/yourname/paper-minesweeper-solver.git
+
+# 进入目录
+cd paper-minesweeper-solver
